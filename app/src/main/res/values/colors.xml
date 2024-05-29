@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#008000</color>
+    <color name="warnabogorism">#98F68F</color>
+    <color name="warnafontgede">#254222</color>
+    <color name="warnabgnavbar">#487D43</color>
+</resources>

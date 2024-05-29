@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Scrollable content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/warnabgnavbar">
+
+            <!-- Example destination items -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wisata di Kota Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/home1"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kebun Raya Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Ir. H. Juanda No.13, Paledang, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16122"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/gunung"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Salak"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Salak Pasawahan, Cicurug, Kabupaten Sukabumi, Jawa Barat"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/thejungle"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Jungle Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perumahan, Jl. Bogor Nirwana Residence Jalan Bogor Nirwana Boulevard, RT.05/RW.12, Mulyaharja, Kec. Bogor Sel., Kota Bogor, Jawa Barat 16132"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/jungleland"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jungle Land Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kawasan Sentul Nirwana, Jl. Jungle Land No.1, Karang Tengah, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/sempur"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lapangan Sempur"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Sempur No.1, Sempur, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16129"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/leuwihejo"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leuwi Hejo"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jalan raya jangelansentul, Karang Tengah, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16830"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/cikoneng"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Curug Cikoneng"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puraseda, Leuwiliang, Bogor Regency, West Java 16640"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/musiumperjuangan"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Museum Perjuangan Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Merdeka No.56, RT.04/RW.01, Kp. Parung Jambu, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/zoologi"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Museum Zoologi"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Ir. H. Juanda No.9, RT.04/RW.02, Paledang, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16911"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/safari"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taman Safari Bogor"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="24sp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jalan Kapten Harun Kabir No.724, Cibeureum, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+                    android:fontFamily="@font/mont"
+                    android:textSize="16sp"
+                    android:layout_marginTop="4dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

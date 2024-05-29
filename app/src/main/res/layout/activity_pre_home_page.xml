@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang!"
+        android:textSize="30sp"
+        android:textColor="#2C5F2D"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="200px"
+        android:text="Temukan Keindahan Kota Bogor Dengan Mudah"
+        android:textSize="18sp"
+        android:fontFamily="@font/mont"
+        android:textColor="#2C5F2D"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/explore_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jelajahi Sekarang"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2C5F2D"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/home1_1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
