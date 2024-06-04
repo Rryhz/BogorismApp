@@ -1,4 +1,4 @@
-package com.example.bogorismapp;
+package com.example.bogorismapp.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import com.example.bogorismapp.MainActivity;
+import com.example.bogorismapp.R;
 
 public class LoginPage extends AppCompatActivity {
 
@@ -38,13 +40,13 @@ public class LoginPage extends AppCompatActivity {
         // Inisialisasi SharedPreferences
         sharedPreferences = getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
 
-        // Cek apakah "Ingat saya" sudah dicentang sebelumnya
-        boolean rememberMe = sharedPreferences.getBoolean(KEY_REMEMBER_ME, false);
-        if (rememberMe) {
-            // Jika sudah dicentang, langsung arahkan ke MainActivity
-            startMainActivity();
-            return;
-        }
+//        // Cek apakah "Ingat saya" sudah dicentang sebelumnya
+//        boolean rememberMe = sharedPreferences.getBoolean(KEY_REMEMBER_ME, false);
+//        if (rememberMe) {
+//            // Jika sudah dicentang, langsung arahkan ke MainActivity
+//            startMainActivity();
+//            return;
+//        }
 
         // Set listener untuk tombol login
         loginButton.setOnClickListener(new View.OnClickListener() {

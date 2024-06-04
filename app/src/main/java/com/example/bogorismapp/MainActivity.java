@@ -1,20 +1,13 @@
 package com.example.bogorismapp;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.FrameLayout;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
-import androidx.activity.EdgeToEdge;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -22,5 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        LinearLayout Wisata1 = findViewById(R.id.Wisata1);
+        Wisata1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Destinasi1.class);
+                startActivity(intent);
+            }
+        });
     }
 }
